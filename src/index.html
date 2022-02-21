@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Landing_Page</title>
+    <link rel="stylesheet" href="assets/styles/main.scss">
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <nav class="navbar__container">
+          <a class="navbar__logo" href="#"><img src="/src/assets/images/Logo.png" width="50" height="50"/></a>
+          <a class="navbar__brand" href="#"><h1 class="navbar__brand">The Legend of AFDE</h1></a>
+          <input id="toggle-menu" class="navbar__hamburger__toggle" type="checkbox">
+          <label for="toggle-menu" class="navbar__hamburger__button">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <ul class="navbar__list">
+            <li class="navbar__item"><h3><a href="#story" class="navbar__link">Story</a></h3></li>
+            <li class="navbar__item"><h3><a href="#characters" class="navbar__link">Characters</a></h3></li>
+            <li class="navbar__item"><h3><a href="#maps" class="navbar__link">Maps</a></h3></li>
+            <li class="navbar__item"><h3><a href="#contact" class="navbar__link">Contact</a></h3></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section id="story" class="section">
+        <section class="video-container">
+          <video src="/src/assets/video/video.webm" autoplay loop playsinline muted></video>
+          <div class="callout">
+            <h1>STORY</h1>
+            <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, consequatur, beatae repellat laborum, ab deserunt perferendis labore possimus minus dolore placeat obcaecati illum quidem quos! Facere fugiat labore eligendi deserunt.</p></div>
+          </div>
+        </section>
+      </section>
+    
+      <section id="characters" class="section">
+        <div>
+        <h1>CHARACTERS</h1>
+        <div id="slider-wrapper">
+          <div id="image-slider">
+            <ul>
+              <li class="active-img">
+                <img src="/src/assets/images/Mapa_1.png" alt="" />
+              </li>
+              <li>
+                <img src="/src/assets/images/Mapa_3.png" alt="" />
+              </li>
+              <li>
+                <img src="/src/assets/images/Mapa_1.png" alt="" />
+              </li>									
+            </ul>
+      
+          </div>
+      
+          <div id="thumbnail">
+            <ul>
+              <li class="active"><img src="/src/assets/images/Mapa_1.png" alt="" /></li>
+              <li><img src="/src/assets/images/Mapa_3.png" alt="" /></li>
+              <li><img src="/src/assets/images/Mapa_1.png" alt="" /></li>	
+            </ul>
+          </div>
+        </div>
+      </div>
+      </section>
+    
+      <section id="maps" class="section">
+        <h1>MAPS</h1>
+        <img src="/src/assets/images/Mapa_1.png" class="section__image"/>
+      </section>
+    
+      <section id="contact" class="section">
+        <h1>CONTACT</h1>
+        <img src="/src/assets/images/Mapa_1.png" class="section__image"/>
+      </section>
+    </main>
+  </body>
+</html>
